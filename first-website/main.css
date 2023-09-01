@@ -1,0 +1,32 @@
+body {
+    background-color:rgb(255,0,0);
+    margin: 0;
+    font-size: 30px;
+}
+
+
+p {
+    font-size: 40px;
+    color: white;
+    background-color: darkkhaki;
+    padding: 30px;
+    margin: 30px;
+    margin-top:60px;
+
+}
+
+li {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+ol {
+    background-color:aquamarine;
+    padding: 0;
+    margin-left: 30px;
+}
+
+#introduction {
+    background-color:darkolivegreen;
+    border: 5px solid red;
+}
