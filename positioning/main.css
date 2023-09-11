@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:burlywood
+}
+
+.center {
+    background-color:pink;
+    padding:10px;
+    text-align:center;
+    max-width:500px;
+    /* makes it so that it doesn't get super cut off, sets limits */
+    margin: 0 auto;
+    /* this is the part above that makes it stay centered no matter the size */
+}
+
+.square {
+    background-color:lightblue;
+    width:150px;
+    height:150px;
+    border:1px solid;
+    margin:10px;
+    padding:10px;
+    text-align:center;
+    /* top right bottom left doesn't work unless it is set as something other than static */
+}
+
+.relative {
+    background-color:lightcoral;
+    position:relative;
+    /* allows us to start positioning once stuff moves around */
+    top:30px;
+    left:30px;
+    /* other elements will keep the space if static even if this single element moves */
+    /* when using positioning bottom, top, left, or right, its moving relative to that edge we are declaring */
+}
+
+.fixed {
+    background-color:lightgreen;
+    position:fixed;
+    margin:0;
+    /* you can use percentages to move the elements! */
+    top:50%;
+    left:50%;
+    margin:0;
+    transform: translate(-50%,-50%)
+    /* we can use "transform" to do a WHOLE lot of things */
+}
+
+.absolute {
+    background-color:darkgreen;
+    position:absolute;
+
+    top:50px;
+    right:50px;
+    padding:10px;
+    border:1px solid;
+
+    /* can be handy to scatter elements and maintain a scroll */
+}
+
+.container {
+    background-color:cadetblue;
+    width:300px;
+    height:300px;
+}
+
+.sticky {
+    background-color: blueviolet;
+    position:sticky;
+    top:0;
+    z-index:1;
+    /* default layer for every element is 0 if it isn't positioned */
+}

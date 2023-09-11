@@ -1,0 +1,50 @@
+body {
+    background-color: #ccf4f7;
+    font-family: monospace;
+}
+
+p {
+   color:#0e96b5;
+}
+
+h1 {
+    color: #049e84;
+    font-size: 50px; 
+    text-align: center; 
+}
+
+
+h2 {
+    color: #049e84;
+}
+
+h3 {
+    color: #049e84
+}
+
+h4 {
+    color:#049e84;
+    font-size:30px;
+    text-align:center;
+}
+
+button {
+    color:whitesmoke;
+    background-color:#049e84;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40px;
+    font-size: large;
+    font-family:monospace
+}
+
+ul {
+    color: #18842a
+}
+
+ol {
+    color:#18842a
+}
+

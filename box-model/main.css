@@ -1,0 +1,40 @@
+* {
+    /* box-sizing: border-box; */
+    /*pretty sure asterick means apply everywhere (wild card)*/
+}
+
+.content-box {
+    background-color:rgb(163, 186, 140);
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 20px dashed;
+    margin:20px;
+    border-radius: 50px;
+    /* changing border radius to 100% will make a full circle*/
+}
+
+.border-box {
+    background-color:lightblue;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 20px dashed;
+    margin:20px;
+    box-sizing: border-box;
+    display:inline-block;
+}
+
+.inline {
+    background-color: lightcoral;
+    width: 60px;
+    height: 60px;
+    /* width and height have no effect on an inline element with some expceptions, like images*/
+    padding: 20px;
+    /* they can start to overlap, just expanding outwards with no added space */
+    border: 1px solid;
+    margin:20px;
+    /* for some reason it only does left and right margins, not top and bottom */
+    display: inline-block;
+    /* inherit the width and height but allow it to stack like before */
+}   
