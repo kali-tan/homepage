@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #397553;
+    font-family:'Courier New', Courier, monospace;
+    color:#befeda
+}
+
+.index {
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+    margin:0;
+    background-color:#1c4f2f;
+    text-align:center;
+    padding:20px;
+    color:#ffffff;
+    font-size:40px;
+}
+
+h2 {
+    text-align:center;
+}
+
+h3 {
+    text-align:center;
+}
+
+button {
+    border-style:outset;
+    border-color:#083123;
+    border-width: 10px;
+    background-color:#1d6212;
+    text-align:center;
+    padding: 15px 32px;
+    display:inline-block;
+    font-size:20px;
+    margin-left: 42%;
+    margin-right:40%;
+    color:whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    cursor:help;
+}
+
+img {
+    align-content:"right";
+    margin-left:50%;
+    background-color:#083123;
+    padding: 19px;
+}   
+
+.backhome {
+    text-align:center;
+    background-color:rgba(255, 255, 255, 0.504);
+    padding:10px;
+    position:sticky;
+    top:0;
+
+}
+
+a:link{
+    color:whitesmoke;
+}
+
+a:visited{
+    color:#083123
+}
+
+a:hover {
+    color:blue
+}
+
+.pokedex {
+   text-align:center;
+   margin-right:50%;
+}
