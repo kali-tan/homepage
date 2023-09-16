@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color:lightblue;
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    /* default is no wrap */
+
+    justify-content:center;
+    /* aligining items in a row */
+    height:400px;
+    /* align-items:center; */
+    /* default is stretch */
+    /* align content is for a ton of multi line containers, used with flex-wrap*/
+    align-content:center;
+    row-gap:10px;
+    column-gap:40px;
+    /* gap: row column; */
+}
+
+.item {
+    background-color:bisque;
+    padding:10px;
+    border:1px solid;
+    /* width:100%; */
+    /* this extends to the full width of the flex continaer */
+    width:200px; 
+    /* this makes a set width for the item */
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* vertical align */
+}
+
+.special {
+    background-color: cornflowerblue;
+    order:-1;
+}
