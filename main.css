@@ -123,3 +123,27 @@ body {
     left:40vw;
 
 }
+
+.structure {
+    /* background-color:aqua; */
+    width:40vw;
+}
+
+.back_home {
+    /* background-color:palevioletred; */
+    text-align:center;
+    margin-top:0;
+}
+
+button {
+    background-color:#b5459f;
+    border:none;
+    color:white;
+    padding:10px;
+    transition-duration:0.4s;
+}
+
+button:hover {
+    background-color:white;
+    color:black;
+}
