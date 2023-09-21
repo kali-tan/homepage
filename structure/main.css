@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-color:rgb(29, 132, 150);
+}
+
+.main-container {
+    background-color:antiquewhite;
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    gap:50px;
+    color:darksalmon;
+}
+.s-main-container {
+    background-color:rgb(190, 201, 221);
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    gap:50px;
+    color:blue;
+}
+
+.two-main-container {
+    background-color:rgb(108, 97, 97);
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    gap:50px;
+}
+
+.three-main-container {
+    background-color:rgb(20, 47, 40);
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    gap:50px;
+    color:aquamarine;
+}
+.four-main-container {
+    background-color:rgb(224, 144, 158);
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    gap:50px;
+    color:rgb(104, 11, 42);
+}
+
+.f-main-container {
+    background-color:rgb(245, 245, 173);
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    gap:50px;
+    color:rgb(165, 156, 39);
+}
+
+.one-staff {
+    background-color:bisque;
+    height: 30%;
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content:space-between;
+
+}
+
+.s-one-staff {
+    background-color:rgb(171, 180, 197);
+    height: 30%;
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content:space-between;
+}
+
+.two-one-staff {
+    background-color:darkgray;
+    height: 30%;
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content:space-between;
+}
+
+.three-one-staff {
+    background-color:rgb(106, 154, 141);
+    height: 30%;
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content:space-between;
+}
+
+.four-one-staff {
+    background-color:palevioletred;
+    height: 30%;
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content:space-between;
+}
+
+.f-one-staff {
+    background-color:rgb(235, 235, 111);
+    height: 30%;
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content:space-between;
+}
+
+.staff-line {
+    background-color:rgb(214, 186, 186);
+    height:3px;
+}
+
+.s-staff-line {
+    background-color:cornflowerblue;
+    height:3px;
+}
+
+.two-staff-line {
+    background-color:dimgray;
+    height:3px;
+}
+
+.three-staff-line {
+    background-color:rgb(44, 88, 77);
+    height:3px;
+}
+
+.four-staff-line {
+    background-color:pink;
+    height:3px;
+}
+
+.f-staff-line {
+    background-color:rgb(218, 218, 73);
+    height:3px;
+}
+
+.title {
+    /* background-color:blue;  */
+    position:relative;
+    text-align:center;
+    color:rgb(23, 73, 98);
+    font-size:70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:100px;
+}
+
+.record-container {
+    /* background-color:blanchedalmond; */
+    position:absolute;
+    width:100%;
+    z-index:-1;
+    display:flex;
+    justify-content:center;
+    
+}
+
+.left {
+    /* background-color:red; */
+    width:25%;
+    height:100vh;
+    display:flex;
+    flex-direction:column; 
+    gap:30px;
+    padding:10px;
+
+}
+
+.right {
+    /* background-color:yellow; */
+    width:25%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    padding:10px;
+
+}
+
+.middle {
+    /* background-color:orange; */
+}
+
+.content {
+    /* background-color:azure; */
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.item {
+    /* background-color:chartreuse; */
+    height:200px;
+    text-align:center;
+}
+
+.item:hover  {
+    background-color:rgba(0, 0, 255, 0.207);
+    border-radius: 0;
+}
+
+.hide {
+    font-family:monospace;
+    font-size:20px;
+    color:rgb(23, 73, 98);
+}
+
+.home {
+    position:fixed;
+    width:100%;
+    background-color:rgba(245, 245, 245, 0.692);
+    text-align:center;
+}
+
+a:link {
+    color:rgb(254, 34, 115);
+}
+
+a:visited {
+    color:plum;
+}
+
+a:hover {
+    color:mediumorchid;
+}
+
+
