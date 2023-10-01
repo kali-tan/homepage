@@ -307,3 +307,48 @@ body {
 
     }
 }
+
+.typewriter {
+    overflow:hidden;
+    white-space:nowrap; 
+    margin: 0 auto;
+}
+
+.top-header {
+    background-color:black;
+    height:20vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+}
+
+.notification {
+    background-color:rgba(255, 255, 255, 0.501);
+    padding:10px;
+    border-radius:5%;
+    width:40vw;
+    height:10vh;
+    color:white;
+    font-family:monospace;
+    font-size:50px;
+    animation: notice 2s alternate infinite;
+}
+
+@keyframes notice {
+    0% {
+        background-color:rgba(255, 255, 255, 0.501);
+        color:white;
+    }
+
+    100% {
+        background-color:black;
+        color:black;
+    }
+}
+
+.notification:hover {
+    background-color:white;
+    animation:none;
+    color:rgb(124, 124, 231);
+}
