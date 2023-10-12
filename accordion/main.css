@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-color:black;
+    color:white;
+}
+
+.main-container {
+    display:flex;
+    flex-direction:row;
+}
+
+.left-container {
+    display:flex;
+    flex-direction:column;
+}
+
+@keyframes pulse {
+    0%{
+        transform:scale(1);
+    }
+    50% {
+        transform:scale(2);
+        color:gray;
+    }
+    100%{
+        transform:scale(1);
+    }
+}
+
+.right-container {
+    display:flex;
+    flex-direction:column;
+}
+
+.middle-container {
+    display:flex;
+    flex-direction:column;
+}
+
+.first-clump {
+    display:flex;
+    animation: pulse infinite 3s;
+}
+
+.second-clump {
+    display:flex;
+    animation: pulse infinite 5s;
+}
+
+@keyframes move {
+    0%{
+        transform: translate(0px, 0px);
+    }
+    100%{
+        transform: translate(50px, 50px);
+        color:darkgray;
+    }
+}
+
+.third-clump {
+    display:flex;
+    animation: move infinite alternate 4s;
+}
+
+.fourth-clump {
+    display:flex;
+    animation: move infinite alternate 3s;
+    animation-delay:2s;
+}
+
+.fifth-clump {
+    display:flex;
+    animation: pulse infinite alternate 2s;
+}
+
+.thought {
+    font-size:30px;
+    text-align:center;
+}
+
+.statement {
+    font-size:100px;
+    position:absolute;
+    margin-left:60vw;
+    margin-top:90vh;
+}
+
+.statement2 {
+    color:black;
+    font-size:100px;
+    position:absolute;
+    margin-left:60vw;
+    margin-top:90vh;
+    z-index: -1;
+}
+
+.statement3 {
+    color:black;
+    font-size:100px;
+    position:absolute;
+    margin-left:60vw;
+    margin-top:90vh;
+    z-index: -2;
+}
+
+@media screen and (max-width:1000px) {
+    body {
+        background-color:rgb(116, 107, 95);
+        color:antiquewhite;
+    }
+
+    .first-clump {
+        display:flex;
+        animation: pulse infinite 10s;
+    }
+
+    .second-clump {
+        display:flex;
+        animation: pulse infinite 10s;
+    }
+
+    .third-clump {
+        display:flex;
+        animation: move infinite alternate 9s;
+    }
+
+    .fourth-clump {
+        display:flex;
+        animation: move infinite alternate 7s;
+        animation-delay:2s;
+    }
+
+    .fifth-clump {
+        display:flex;
+        animation:none;
+    }
+
+    .main-container {
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+    }
+    
+    .left-container {
+        display:flex;
+        flex-direction:column;
+    }
+
+    .right-container {
+        display:flex;
+        flex-direction:column;
+    }
+    
+    .middle-container {
+        display:flex;
+        flex-direction:column;
+    }
+
+    .statement {
+        color:rgb(116, 107, 95);
+        z-index: -1;
+    }
+
+    .statement2 {
+        color:white;
+        z-index:1;
+        margin-left:30vw;
+        margin-top:100vh;
+
+    }
+
+    .statement3 {
+        color:rgb(116, 107, 95);
+        z-index: -2;
+    }
+
+    .thought {
+        font-size:20px;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    body {
+        background-color:rgb(205, 190, 171);
+        color:antiquewhite;
+    }
+
+    .first-clump {
+        display:flex;
+        animation:none;
+    }
+
+    .second-clump {
+        display:flex;
+        animation:none;
+    }
+
+    .third-clump {
+        display:flex;
+        animation:none;
+    }
+
+    .fourth-clump {
+        display:flex;
+        animation:none;
+    }
+
+    .fifth-clump {
+        display:flex;
+        animation:none;
+    }
+
+    .main-container {
+        display:flex;
+        flex-direction:row;
+    }
+    
+    .left-container {
+        display:flex;
+        flex-direction:column;
+    }
+
+    .right-container {
+        display:flex;
+        flex-direction:column;
+    }
+    
+    .middle-container {
+        display:flex;
+        flex-direction:column;
+    }
+
+    .statement {
+        color:rgb(205, 190, 171);
+        z-index: -1;
+    }
+
+    .statement2 {
+        color:rgb(205, 190, 171);
+        z-index:-2;
+
+    }
+
+    .statement3 {
+        color:white;
+        z-index: 1;
+        margin-left:10vw;
+    }
+
+    .thought {
+        font-size:15px;
+        color:white;
+        text-align:left;
+    }
+
+}

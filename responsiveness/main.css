@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    /* width:100%; */
+    /* force image to fill width of screen no matter what */
+    max-width:100%
+    /* this is to force the image to expand up to a limit depending on original size */
+}
+
+p {
+    background-color:darkkhaki;
+    padding:30px;
+    max-width:500px;
+}
