@@ -76,7 +76,6 @@ body {
 .journals {
     /* background-color:orange; */
     display:inline-block;
-    position:absolute;
     bottom:10px;
 }
 
