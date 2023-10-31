@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:skyblue;
+}
+
+.main-container {
+    display:flex;
+    flex-direction:column;
+}
+
+.top {
+    /* background-color:orange; */
+    text-align:center;
+    color:white;
+    font-family: 'Abel', sans-serif;
+    font-size:100px;
+}
+
+.middle {
+    /* background-color:beige; */
+    text-align:center;
+}
+
+.bottom {
+    /* background-color:black; */
+    display:flex;
+    justify-content:space-evenly;
+
+}
+
+button {
+    padding:40px;
+    background-color:#2478c7;
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
+    border:none;
+    color:white;
+    padding:10px;
+    transition-duration:0.4s;
+    border-radius:10px;
+}
+
+button:hover {
+    background-color:white;
+    color:black;
+    cursor:grab;
+}
+
+.top-play {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.middle-play {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding:50px;
+    gap:500px;
+}
+
+.bottom-play {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding:10px;
+    gap:300px;
+    margin-left:50px;
+}
+
+.character {
+    text-align:center;
+}
+
+.hops-information {
+    width:50vw;
+    height:15vh;
+    color:skyblue;
+    font-family:'abel', sans-serif;
+    text-align:center;
+    font-size:25px;
+    background-color:whitesmoke;
+    opacity:0;
+    border-radius: 10px;
+}
+
+.kit-information {
+    width:50vw;
+    height:15vh;
+    color:skyblue;
+    font-family:'abel', sans-serif;
+    text-align:center;
+    font-size:25px;
+    background-color:whitesmoke;
+    opacity:0;
+    border-radius: 10px;
+}
+
+.dark {
+    background-color:black;
+}
+
+.dontplay {
+    position:absolute;
+    top:0;
+    opacity:0;
+    transition: opacity .3s;
+    left:20vw;
+}
+
+.button3 {
+    position:absolute;
+    top:50;
+    opacity:0;
+    transition: opacity .3s;
+}
+
+.hops-main-container {
+    display:flex;
+    flex-direction:column;
+}
+
+.kit-main-container {
+    display:flex;
+    flex-direction:column;
+}
+
+.hops-top {
+    text-align:center;
+}
+
+.kit-top {
+    text-align:center;
+}
+
+.hops-middle {
+    text-align:center;
+    color:white;
+    font-size:25px;
+    font-family:'abel', sans-serif;
+    margin-bottom:50px;
+}
+
+.kit-middle {
+    text-align:center;
+    color:white;
+    font-size:25px;
+    font-family:'abel', sans-serif;
+    margin-bottom:50px;
+}
+
+.bunnyimage2 {
+    opacity:0;
+    position:absolute;
+    left:20vw;
+    top:0;
+    animation:none;
+}
+
+.kitimage2 {
+    opacity:0;
+    position:absolute;
+    left:20vw;
+    top:0;
+    animation:none;
+}
+
+.bunnyimage {
+    opacity:1;
+    animation:none;
+}
+
+.kitimage {
+    opacity:1;
+    animation:none;
+}
+
+@keyframes appear {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+@keyframes disappear {
+    0%{
+        opacity:1;
+
+    }
+    100%{
+        opacity:0;
+
+    }
+}
+
+.hops-bottom {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.kit-bottom {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.pet-btn {
+    font-size:30px;
+    background-color:#2478c7;
+}
+
+.pet-btn2 {
+    font-size:30px;
+    background-color:#2478c7;
+}
+
+.feed-btn {
+    font-size:30px;
+}
+
+.feed-btn2 {
+    font-size:30px;
+}
+
+.playing-btn {
+    font-size:30px;
+}
+
+.playing-btn2 {
+    font-size:30px;
+}
+
+.trick-btn {
+    font-size:30px;
+}
+
+.trick-btn2 {
+    font-size:30px;
+}
+
+.carrot {
+    position:absolute;
+    top:20px;
+    left:70vw;
+    opacity:0;
+
+
+}
+
+.fish {
+    position:absolute;
+    top:20px;
+    left:70vw;
+    opacity:0;
+}
+
+
+
+@keyframes spin {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+.strtover-btn {
+    position:fixed;
+    top:0;
+    background-color:#3d7ebb40;
+    right:0;
+    font-size:20px;
+}

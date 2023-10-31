@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#c3bf84;
+}
+
+.defaults {
+    font-family:helvetica, sans-serif;
+/* the second font is the fallback font */
+}
+
+.google {
+    font-family: monospace;
+}
+
+.new.google {
+    font-family:Arial, Helvetica, sans-serif;
+}
