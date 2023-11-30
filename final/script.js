@@ -59,7 +59,6 @@ $(".main-title").hover(
         $(".lonely").toggleClass("invisible");
         $(".comfortable").toggleClass("invisible");
         $(".empathy").toggleClass("invisible");
-
     }
 )
 
@@ -68,3 +67,8 @@ $(".home").hover(
         $(".home").toggleClass("active-home");
     }
 )
+
+$( function() {
+    $(".draggable" ).draggable();
+} );
+
