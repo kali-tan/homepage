@@ -50,7 +50,7 @@ $(".main-title").hover(
     function(){
         $(".main-title").toggleClass("pause");
         $(".main-title").toggleClass("reverse-title");
-        $("body").toggleClass("reverse-body");
+        $(".main-container").toggleClass("reverse-body");
         $(".enraged").toggleClass("invisible");
         $(".anxious").toggleClass("invisible");
         $(".alive").toggleClass("invisible");
