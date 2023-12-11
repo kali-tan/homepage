@@ -11,12 +11,12 @@ body {
 
 a:link, a:visited {
     text-decoration: none;
-    color:white;
+    color:rgb(241, 215, 215);
 }
 
 .main-container {
     display:flex;
-    background-color:black;
+    background-color:rgb(156, 216, 232);
     flex-direction:column;
     justify-content:space-between;
     width:100vw;
@@ -24,7 +24,7 @@ a:link, a:visited {
     color:white;
     font-size:20px;
     transition:1s;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Timeless;
 }
 
 .main-title {
@@ -38,7 +38,7 @@ a:link, a:visited {
     padding:10px;
     animation: slide infinite linear 10s;
     transition:1s;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Timeless;
 }
 
 @keyframes slide {
@@ -83,7 +83,7 @@ a:link, a:visited {
 .alive {
     margin-top:15vh;
     height:200px;
-    background-color:rgb(255, 242, 1);
+    background-color:#FFFAA0;
     border-radius:100px;
     width:200px;
     text-align:center;
@@ -109,7 +109,7 @@ a:link, a:visited {
 .hopeful {
     margin-top:15vh;
     height:200px;
-    background-color:rgb(255, 242, 1);
+    background-color:#FFFAA0;
     padding:50px;
     border-radius:100px;
     width:200px;
@@ -139,7 +139,7 @@ a:link, a:visited {
 .enraged {
     margin-top:15vh;
     height:200px;
-    background-color:red;
+    background-color:#FAA0A0;
     border-radius:100px;
     padding:50px;
     width:200px;
@@ -151,6 +151,7 @@ a:link, a:visited {
 .enragedaction {
     border-radius:15px;
     transform:rotate(45deg);
+    background-color:red;
     box-shadow: 0 0 0 30px rgb(255, 0, 0),  
     0 0 0 60px rgb(224, 114, 83), 
     0 0 0 100px rgb(224, 83, 83), 
@@ -186,7 +187,7 @@ a:link, a:visited {
 .anxious {
     margin-top:15vh;
     height:200px;
-    background-color:red;
+    background-color:#FAA0A0;
     border-radius:100px;
     padding:50px;
     width:200px;
@@ -216,7 +217,7 @@ a:link, a:visited {
 .empathy {
     margin-top:15vh;
     height:200px;
-    background-color:green;
+    background-color:rgb(125, 209, 125);
     border-radius:100px;
     padding:50px;
     width:200px;
@@ -238,7 +239,7 @@ a:link, a:visited {
 .comfortable {
     margin-top:15vh;
     height:200px;
-    background-color:green;
+    background-color:rgb(125, 209, 125);
     border-radius:100px;
     padding:50px;
     width:200px;
@@ -271,7 +272,7 @@ a:link, a:visited {
 .grieving {
     margin-top:15vh;
     height:200px;
-    background-color:blue;
+    background-color:#5a9ee1;
     border-radius:100px;
     padding:50px;
     width:200px;
@@ -284,7 +285,7 @@ a:link, a:visited {
 
 @keyframes color {
     0%{
-        background-color:blue;
+        background-color:#5a9ee1;
     }
     100%{
         background-color:rgb(1, 1, 69);
@@ -294,7 +295,7 @@ a:link, a:visited {
 .lonely {
     margin-top:15vh;
     height:200px;
-    background-color:blue;
+    background-color:#5a9ee1;
     border-radius:100px;
     padding:50px;
     width:200px;
